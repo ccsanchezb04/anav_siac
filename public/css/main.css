@@ -1,0 +1,61 @@
+body {
+	background: url('http://localhost/anav_siac/public/images/fondo.png') no-repeat, fixed;
+	background-size: cover; 	
+}
+.contenedor, .contenedor-principal, .contenedor-menu, #error404 {
+	background: rgba(245, 245, 245, 0.4);
+	border-radius: 5px;	
+}
+.contenedor { 
+	margin-top: 80px; 
+	padding: 20px;
+}
+
+#error404 { 
+	margin-top: 170px; 
+	padding: 20px;
+}
+#error404 {font-size: 22px;}
+#error404 h1 { 
+	font-weight: bold;
+	font-size: 38px;
+}
+#error404 #redirect {margin: 45px auto;}
+.contenedor-principal, .contenedor-menu {  
+	margin-top: 20px; 
+	padding: 20px;
+}
+#menu_backend, #admins, #instrcutors, #managers, #tla, #dpa, #asa { background: #e6e6e6; }
+#menu_backend { border-radius: 5px; }
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus
+{
+	background: #337ab7;
+	border: 0;
+	color: #fff;
+}
+.nav-tabs > li > a {
+    background: rgba(230, 230, 230, 0.5);
+    color: #337ab7;
+}
+.nav-pills > li > a { border-radius: 0; }
+#requerido {
+	/*border:1px solid red;*/
+	font: 24px bold;
+	left: -26px;
+	text-align: left;
+}
+.top-bar { margin-bottom: 20px; }
+#lst-table th, #form-add th, #titulo_prog {	text-align: center; }
+#grupo_calificaiones, #grupo_matriculas, #prog_inscritos,
+#prog_grupos, #prog_materias, #prog_asig, #grupo_estudiantes{
+	display: none;
+	text-align: right;
+}
+.calif_notaf_estu, .valor{
+	font-weight: bold;
+	text-align: center;
+}
+.valor {
+	background: transparent;
+	border: none;
+}
